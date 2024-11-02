@@ -115,43 +115,6 @@ body {
     .nav-list.active {
         left: 0;
     }
-
-    .box {
-        width: 100%;
-        height: auto;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto;
-    }
-
-    .circle, .square {
-        height: 45px;
-        width: 45px;
-    }
-
-    .choices {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .create-button {
-        width: 100%;
-        padding: 8px;
-    }
-}
-
-@media (max-width: 480px) {
-    .box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .circle, .square {
-        height: 35px;
-        width: 35px;
-    }
-
-    .create-button {
-        font-size: 1.4rem;
-    }
 }
 
 .logo {
@@ -187,6 +150,7 @@ main {
 }
 
 .create-button {
+    color: #000;
     width: 80px;
     background-color: #00ffff;
     justify-content: center;     
